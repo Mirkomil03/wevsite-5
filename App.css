@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/dubai-5.jpg);
+  width: 100%;
+  height: 98.5vh;
+  background-size: cover;
+}
+.inp{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  width: 90%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.39);
+}
+.but{
+  font-size: 20px;
+  width: 10%;
+  height: 50px; 
+  background-color: rgba(0, 0, 0, 0.329);
+  color: white;
+  /* background: repeating-linear-gradient(rgb(40, 40, 255),rgb(0, 225, 255),rgb(255, 0, 255)); */
+  /* https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/dubai-5.jpg */
+}
+.glavni{
+  display: flex;
+  margin-top: 10px;
+}
+.inp{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.but{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.a1{
+  border: 3px solid rgba(255, 255, 255, 0.568);
+  margin-top: 30px;
+  width: 300px;
+  height: 330px;
+  background-color: rgba(0, 0, 0, 0.445);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.gg{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+}
+.informatsiya{
+  color: rgb(255, 255, 255);
+  margin-top: 80px;
+}
+.img{
+  width: 100px;
+  height: 100px;
+}
+.cardlist{
+  display: flex;
+  justify-content: space-around;
+}
+
+.inp2{
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 20px;
+  width: 45%;
+  height: 50px; 
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.inp2:hover{
+  border-color: rgb(235, 23, 23);
+}
+.mailer{
+  height: 340px;
+  width: 53%;
+  margin-top: 50px;
+  margin-left: 500px;       
+  background-color: rgba(68, 68, 68, 0.575);          
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;                          
+  border: 3px solid rgb(32, 24, 24);
+  background: repeating-linear-gradient(rgba(0, 60, 255, 0.582),rgba(0, 225, 255, 0.527),rgba(0, 0, 0, 0.411));
+}
+.mailer button{
+  margin-left: 30px;
+}
+.mailer button:hover{
+  background-color: rgba(0, 255, 255, 0.452);
+  color: blue;
+}
+.q1{
+  margin-top: -100px;
+  margin-left: 550px;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: rgb(125, 253, 253);
+  font-size: 30px;
+}
+.menu a{
+  text-decoration: none;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:25px;
+  padding-left:6px;
+  border: 2px solid rgb(20, 20, 153);
+  border-radius: 200px;
+
+}
+.menu{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+marquee mark{
+  background-color: rgb(46, 46, 241);
+  color: antiquewhite;
+  border-radius:20px;
+ 
+}
+
+ 
+
+
